@@ -1,0 +1,19 @@
+.social-icons {
+  margin-top: 5rem;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 65px;
+  height: 65px;
+  margin-right: 35px;
+  border-radius: 100%;
+  background-color: $icon-color;
+  font-size: 2rem;
+}
+.social-icons a:hover {
+  background-color: $main-color;
+}

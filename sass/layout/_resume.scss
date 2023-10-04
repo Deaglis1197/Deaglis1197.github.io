@@ -1,0 +1,52 @@
+.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  min-height: 100vh;
+}
+.nameheading {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.heading {
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 8rem;
+}
+h2 {
+  font-size: 5rem;
+}
+h3 {
+  font-size: 3rem;
+}
+.sub-heading {
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.cover-letter {
+  font-size: 23px;
+  font-weight: 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.resume-section p {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  color: $main-text-color;
+}
+.section-hr {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.awards-list {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,23 @@
+.navbar {
+  background-color: $main-color;
+  text-align: center;
+  position: fixed;
+}
+
+.navbar a {
+  padding-bottom: 2rem;
+}
+.navbar ul {
+  font-size: 1.55rem;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+}
+.navbar li {
+  padding-top: 2rem;
+  color: $nav-text-color-unselected;
+  transition: color 0.3s;
+}
+.navbar li:hover {
+  color: $nav-text-color;
+}

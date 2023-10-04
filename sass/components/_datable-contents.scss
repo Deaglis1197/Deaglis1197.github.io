@@ -1,0 +1,28 @@
+.datable-content {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.datable-content .content .header {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: $icon-color;
+}
+.datable-content .content p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: $main-text-color;
+}
+.datable-content .content {
+  width: 70%;
+  float: right;
+}
+.datable-content .date {
+  float: left;
+  width: 30%;
+  text-align: right;
+  color: $main-color;
+  font-size: 20px;
+  font-weight: 700;
+}
