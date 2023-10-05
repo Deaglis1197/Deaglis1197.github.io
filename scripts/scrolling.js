@@ -13,7 +13,7 @@ function setButtons() {
         break;
       }
     }
-    console.log(section);
+
     button.addEventListener("click", () => {
       section.scrollIntoView();
     });
